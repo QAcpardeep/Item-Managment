@@ -3,7 +3,6 @@ package persistence.DAO
 import persistence.domain.{Item, Items}
 import slick.jdbc.MySQLProfile.backend.Database
 import slick.jdbc.MySQLProfile.api._
-
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 

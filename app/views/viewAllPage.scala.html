@@ -1,4 +1,9 @@
-@(message: String)
+@import persistence.domain.Item
+@(items: Seq[Item])
 @main("Welcome to Play") {
-
+    <ul>
+        @for(x <- items){
+            <li>@x.name</li>
+        }
+    </ul>
 }
